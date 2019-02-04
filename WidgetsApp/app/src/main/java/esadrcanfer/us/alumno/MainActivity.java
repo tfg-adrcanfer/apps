@@ -28,4 +28,21 @@ public class MainActivity extends AppCompatActivity {
             textView.setText("Ha marcado un radio button y pulsado el botón");
         }
     }
+
+
+
+    public void print1(View view) {
+        TextView textView = findViewById(R.id.text2);
+        textView.setText("Seleccionado Radio Button 1");
+    }
+
+    public void print2(View view) {
+        TextView textView = findViewById(R.id.text2);
+        textView.setText("Seleccionado Radio Button 2");
+    }
+
+    public void print3(View view) {
+        TextView textView = findViewById(R.id.text2);
+        textView.setText("Seleccionado Radio Button 3");
+    }
 }
